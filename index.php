@@ -14,14 +14,14 @@
   $myArr[] = "https://www.google.com/search?q=milano&safe=active&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj9sLeP0tThAhVGqxoKHYAgAvkQ_AUIDigB&biw=1366&bih=608#imgrc=Q3a4Z8Vv9ZrK5M:";
   $myArr[] = "https://www.google.com/search?q=milano&safe=active&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj9sLeP0tThAhVGqxoKHYAgAvkQ_AUIDigB&biw=1366&bih=608#imgrc=aid4Bk9yaag1-M:";
 
-  $randomInd = rand(0, sizeof($myArr));
+  $randomInd = rand(0, count($myArr));
   $url = $myArr[$randomInd];
 
   echo $url;
 
   foreach ($myArr as $key => $value) {
 
-    echo "<img src="$value" >";
+    echo "<img src="$value">";
   }
  ?>
   </body>
