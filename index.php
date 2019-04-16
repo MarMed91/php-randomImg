@@ -8,20 +8,19 @@
 <?php
 
   $myArr = [];
-  $myArr[] = "https://www.google.com/search?q=milano&safe=active&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj9sLeP0tThAhVGqxoKHYAgAvkQ_AUIDigB&biw=1366&bih=608#imgrc=Fkh8Fa70lUBQ6M:";
-  $myArr[] = "https://www.google.com/search?q=milano&safe=active&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj9sLeP0tThAhVGqxoKHYAgAvkQ_AUIDigB&biw=1366&bih=608#imgrc=AZ1N4T5MTdI-4M:";
-  $myArr[] = "https://www.google.com/search?q=milano&safe=active&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj9sLeP0tThAhVGqxoKHYAgAvkQ_AUIDigB&biw=1366&bih=608#imgrc=PYnECWyXpAYwEM:";
-  $myArr[] = "https://www.google.com/search?q=milano&safe=active&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj9sLeP0tThAhVGqxoKHYAgAvkQ_AUIDigB&biw=1366&bih=608#imgrc=Q3a4Z8Vv9ZrK5M:";
-  $myArr[] = "https://www.google.com/search?q=milano&safe=active&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj9sLeP0tThAhVGqxoKHYAgAvkQ_AUIDigB&biw=1366&bih=608#imgrc=aid4Bk9yaag1-M:";
+  $myArr[] = "https://3.bp.blogspot.com/-WIpQSkxtQ98/VxrtTdEfFDI/AAAAAAAApaA/II4ioBnXWkYFOAobY0GogcpCeK0pqTjZQCLcB/s1600/Galeria-Vittorio-Emanuele-Milao-Italia.jpg";
+  $myArr[] = "https://upload.wikimedia.org/wikipedia/commons/e/e1/Milano_Italy_Duomo-Milan-01.jpg";
+  $myArr[] = "https://s2.glbimg.com/dYy0gGd5_6U-ZW4R8rWFA3rgwSg=/620x430/e.glbimg.com/og/ed/f/original/2015/10/08/duomo.jpg";
+  $myArr[] = "https://www.edreams.pt/blog/wp-content/uploads/sites/4/2018/02/vista-a%C3%A9rea-de-mil%C3%A3o-it%C3%A1lia.jpg";
+  $myArr[] = "https://abrilviagemeturismo.files.wordpress.com/2018/03/galleria-vittorio.jpg?quality=70&strip=info&w=668&strip=info";
 
   $randomInd = rand(0, count($myArr));
   $url = $myArr[$randomInd];
 
   echo $url;
 
-  foreach ($myArr as $key => $value) {
-
-    echo "<img src="$value">";
+  foreach ($myArr as $key1 => $value1) {
+      echo "<img src="$value">";
   }
  ?>
   </body>
