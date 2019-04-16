@@ -18,6 +18,11 @@
   $url = $myArr[$randomInd];
 
   echo $url;
+
+  foreach ($myArr as $key => $value) {
+
+    echo "<img src="$value" >";
+  }
  ?>
   </body>
 </html>
