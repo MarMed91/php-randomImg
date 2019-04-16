@@ -17,10 +17,8 @@
   $randomInd = rand(0, count($myArr));
   $url = $myArr[$randomInd];
 
-  echo $url;
-
   foreach ($myArr as $key1 => $value1) {
-      echo "<img src="$value">";
+    echo "<img src=\"$url\"/>";
   }
  ?>
   </body>
