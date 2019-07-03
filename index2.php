@@ -1,10 +1,31 @@
 <?php
 
-$myArr = [];
-$myArr[] = "https://3.bp.blogspot.com/-WIpQSkxtQ98/VxrtTdEfFDI/AAAAAAAApaA/II4ioBnXWkYFOAobY0GogcpCeK0pqTjZQCLcB/s1600/Galeria-Vittorio-Emanuele-Milao-Italia.jpg";
-$myArr[] = "https://upload.wikimedia.org/wikipedia/commons/e/e1/Milano_Italy_Duomo-Milan-01.jpg";
-$myArr[] = "https://s2.glbimg.com/dYy0gGd5_6U-ZW4R8rWFA3rgwSg=/620x430/e.glbimg.com/og/ed/f/original/2015/10/08/duomo.jpg";
-$myArr[] = "https://www.edreams.pt/blog/wp-content/uploads/sites/4/2018/02/vista-a%C3%A9rea-de-mil%C3%A3o-it%C3%A1lia.jpg";
-$myArr[] = "https://abrilviagemeturismo.files.wordpress.com/2018/03/galleria-vittorio.jpg?quality=70&strip=info&w=668&strip=info";
+  $arr = [
 
+    [
+      "path" => "https://images-revi.rcsobjects.it/1242f068204c073d2dc18d487b95a3a9.jpg",
+      "url" =>"https://digitaledition.gazzetta.it/promotion/aprile19/?intcmp=Promo_Aprile19_manch_280319_gazzetta_in_hp",
+      "isActive"=> true
+  ],
+    [
+      "path" => "https://images-revi.rcsobjects.it/4797cc414525f1c9d3ae7f89da002bc6.jpg",
+      "url" => "http://promo.sportpesa.it/gazzetta/?utm_source=Gazzetta&utm_medium=Email&utm_campaign=Gazzetta_Manchette",
+      "isActive"=>false
+  ],
+    [
+    "path" => "https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKDr7YOnBRABGAEyCL-ooHpQe8SM",
+    "url" => "https://www.unboringthefuture.it/tennis-contest/?utm_source=dfa&utm_medium=cpc&utm_campaign=ConcorsoTennis&utm_term=RCS_Gazzetta&utm_content=Box&dclid=CJLGzOrV1uECFQMk0wodHbUNNw",
+    "isActive"=>true
+  ],
+    [
+    "path" => "https://revi.rcs.it/ck.php?oaparams=2__bannerid=9577__zoneid=351__cb=9144ff2abf__oadest=https%3A%2F%2Fdigitaledition.gazzetta.it%2Fpromotion%2Faprile19%2F%3Fintcmp%3DPromo_Aprile19_spalla_280319_gazzetta_in_hp",
+    "url" => "https://generazionevolley.gazzetta.it/",
+    "isActive"=>true
+  ],
+    [
+    "path" => "https://tpc.googlesyndication.com/simgad/2924194797375373584?sqp=4sqPyQQ7QjkqNxABHQAAtEIgASgBMAk4A0DwkwlYAWBfcAKAAQGIAQGdAQAAgD-oAQGwAYCt4gS4AV_FAS2ynT4&rs=AOga4qlz95pxkl07_xT4Sp5q6ShHC2JDgA",
+    "url" => "https://www.immobiliare.it/?utm_source=ilfattoquotidiano&utm_medium=banner&utm_campaign=widget&hpau=1",
+    "isActive"=>true
+  ]
+];
  ?>

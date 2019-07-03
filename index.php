@@ -11,14 +11,20 @@ function randImg() {
 
   include "index2.php";
 
-  $randomInd = rand(0, count($myArr));
-  $url = $myArr[$randomInd];
+do {
 
-  echo "<img src=\"$url\"/>";
+  $randomInd = rand(0, count($arr)-1);
+  $imgs = $arr[$randomInd];
+
+  $path = $imgs["path"];
+  $url = $imgs["url"];
+  $isActive = $imgs["isActive"];
+
+} while ($isActive);
+
+  echo "<a href='$url'><img src='$path' alt=\"\"/></a>";
 }
-
 randImg();
-
  ?>
   </body>
 </html>
